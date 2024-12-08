@@ -26,8 +26,6 @@ export default defineNuxtConfig({
         // Author information (optional)
         { name: 'author', content: 'ALKAN İskele Kalıp Sistemleri' },
   
-        // Robots meta tag for indexing by search engines
-        { name: 'robots', content: 'index, follow' },
       ]
     },
   },
