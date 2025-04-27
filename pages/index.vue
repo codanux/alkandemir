@@ -6,39 +6,37 @@
         </header>
 
      
-       
 
         <section id="services" style="height: 50vh; background-image: url('https://images.unsplash.com/photo-1613377511623-27a162a76327?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MTUzNXwwfDF8c2VhcmNofDV8fFNjYWZmb2xkaW5nfGVufDB8fHx8MTc0NTY3NDUxMHww&ixlib=rb-4.0.3&q=80&w=1080');">
         
-        <div style="display: flex; flex-direction: row; text-align: center; height: 100%;">
-            <div style="width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7;">
-                <h1>Demir Tedarik ve Montaj</h1>
+            <div class="container" style="text-align: center; height: 100%;">
+                <div style="width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7;">
+                    <h1>Demir Tedarik ve Montaj</h1>
+                </div>
+                <div style="width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7;">
+                    <h1>İskele Kiralama ve Satış</h1>
+                </div>
+                <div style="width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7;">
+                    <h1>Proje Danışmanlığı</h1>
+                </div> 
             </div>
-            <div style="width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7;">
-                <h1>İskele Kiralama ve Satış</h1>
-            </div>
-            <div style="width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7;">
-                <h1>Proje Danışmanlığı</h1>
-            </div> 
-        </div>
-            
         </section>
 
          <section id="about">
             <div class="container">
-                <div style="width: 100%; text-align: center;">
+                <div style="text-align: center; min-height: 30vh; align-content: center;">
                     Alkan Demir ve İskele olarak sektörde yılların deneyimiyle müşterilerimize
                     güvenli, dayanıklı ve kaliteli çözümler sunuyoruz. İster küçük ister büyük
                     projeleriniz için yanınızdayız!
                 </div>
 
-                <div style="width: 100%">
+                <div>
                     <img style="width: 100%;" src="https://images.unsplash.com/photo-1626471671222-9d89fe4c2668?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MTUzNXwwfDF8c2VhcmNofDR8fFNjYWZmb2xkaW5nfGVufDB8fHx8MTc0NTY3NDUxMHww&ixlib=rb-4.0.3&q=80&w=1080"/>
                 </div>
             </div>
         </section>
 
-        <section id="contact" style="height: 50vh; display: flex; flex-direction: row;">
+        <section id="contact" class="container" style="height: 50vh;">
            
             <div style="align-content: center; width: 100%; height: 100%;">
                 <div style="display: flex; flex-direction: row-reverse; height: 100%;">
