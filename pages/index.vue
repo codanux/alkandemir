@@ -1,45 +1,61 @@
 <template>
     <div id="app">
-        <header>
-        <h1>Alkan Demir ve İskele</h1>
-        <p>Sağlam Temeller, Güvenli Yapılar</p>
+
+        <header style="text-align: center; font-size: 40px; padding: 10px;">
+            Alkan Demir ve İskele
         </header>
 
-        <nav>
-        <ul>
-            <li><a href="#about">Hakkımızda</a></li>
-            <li><a href="#services">Hizmetlerimiz</a></li>
-            <li><a href="#contact">İletişim</a></li>
-        </ul>
-        </nav>
+     
+       
 
-        <section id="about">
-        <h2>Hakkımızda</h2>
-        <p>
-            Alkan Demir ve İskele olarak sektörde yılların deneyimiyle müşterilerimize
-            güvenli, dayanıklı ve kaliteli çözümler sunuyoruz. İster küçük ister büyük
-            projeleriniz için yanınızdayız!
-        </p>
+        <section id="services" style="height: 50vh; background-image: url('https://images.unsplash.com/photo-1613377511623-27a162a76327?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MTUzNXwwfDF8c2VhcmNofDV8fFNjYWZmb2xkaW5nfGVufDB8fHx8MTc0NTY3NDUxMHww&ixlib=rb-4.0.3&q=80&w=1080');">
+        
+        <div style="display: flex; flex-direction: row; text-align: center; height: 100%;">
+            <div style="width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7;">
+                <h1>Demir Tedarik ve Montaj</h1>
+            </div>
+            <div style="width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7;">
+                <h1>İskele Kiralama ve Satış</h1>
+            </div>
+            <div style="width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7;">
+                <h1>Proje Danışmanlığı</h1>
+            </div> 
+        </div>
+            
         </section>
 
-        <section id="services">
-        <h2>Hizmetlerimiz</h2>
-        <ul>
-            <li>Demir Tedarik ve Montaj</li>
-            <li>İskele Kiralama ve Satış</li>
-            <li>Proje Danışmanlığı</li>
-        </ul>
+         <section id="about">
+            <div class="container">
+                <div style="width: 100%; text-align: center;">
+                    Alkan Demir ve İskele olarak sektörde yılların deneyimiyle müşterilerimize
+                    güvenli, dayanıklı ve kaliteli çözümler sunuyoruz. İster küçük ister büyük
+                    projeleriniz için yanınızdayız!
+                </div>
+
+                <div style="width: 100%">
+                    <img style="width: 100%;" src="https://images.unsplash.com/photo-1626471671222-9d89fe4c2668?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MTUzNXwwfDF8c2VhcmNofDR8fFNjYWZmb2xkaW5nfGVufDB8fHx8MTc0NTY3NDUxMHww&ixlib=rb-4.0.3&q=80&w=1080"/>
+                </div>
+            </div>
         </section>
 
-        <section id="contact">
-        <h2>İletişim</h2>
-        <p><strong>Telefon:</strong> +90 537 788 26 41</p>
-        <p><strong>E-posta:</strong> info@alkandemir.com</p>
-        <p><strong>Adres:</strong>Paşaköy, Atayolu Cad. No:216, 34160 Sancaktepe/İstanbul</p>
+        <section id="contact" style="height: 50vh; display: flex; flex-direction: row;">
+           
+            <div style="align-content: center; width: 100%; height: 100%;">
+                <div style="display: flex; flex-direction: row-reverse; height: 100%;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.7340569809885!2d29.267917800000003!3d41.0091937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad1e086597e53%3A0x3d05ae7d4b9dc1ca!2zQUxLQU4gxLBTS0VMRSBLQUxJUCBTxLBTVEVNTEVSxLA!5e0!3m2!1str!2str!4v1745742228462!5m2!1str!2str" style="border:0" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div style="align-content: center; padding: 50px">
+                <p><strong>Telefon:</strong> +90 537 788 26 41</p>
+                <p><strong>E-posta:</strong> info@alkandemir.com</p>
+                <p><strong>Adres:</strong> Paşaköy, Atayolu Cad. No:216, 34160 Sancaktepe/İstanbul</p>
+            </div>
+
         </section>
 
-        <footer>
-        <p>&copy; 2024 Alkan Demir ve İskele. Tüm Hakları Saklıdır.</p>
+        <footer style="text-align: center;">
+            <p>&copy; 2024 Alkan Demir ve İskele. Tüm Hakları Saklıdır.</p>
         </footer>
     </div>
 </template>
@@ -48,94 +64,22 @@
 </script>
 
 <style scoped>
-/* Genel Stiller */
-* {
-margin: 0;
-padding: 0;
-}
+
 body {
-padding: 0;
-margin: 0;
-font-family: Arial, sans-serif;
-line-height: 1.6;
-background-color: #f4f4f4;
-color: #333;
+    background-color:darkgray
 }
 
-/* Header */
-header {
-text-align: center;
-background: #1d3557;
-color: white;
-padding: 1.5rem 0;
+.container {
+  display: flex;
+  align-items: center;
+  
 }
 
-header h1 {
-margin: 0;
-font-size: 2.5rem;
-}
 
-header p {
-margin: 0.5rem 0 0;
-font-size: 1.2rem;
-}
-
-/* Navigasyon */
-nav {
-background: #457b9d;
-padding: 0.5rem 0;
-}
-
-nav ul {
-list-style: none;
-padding: 0;
-display: flex;
-justify-content: center;
-margin: 0;
-}
-
-nav ul li {
-margin: 0 1rem;
-}
-
-nav ul li a {
-text-decoration: none;
-color: white;
-font-size: 1rem;
-}
-
-nav ul li a:hover {
-text-decoration: underline;
-}
-
-/* Bölümler */
-section {
-padding: 2rem;
-text-align: center;
-background: #f8f9fa;
-margin: 1rem 0;
-}
-
-section h2 {
-color: #1d3557;
-margin-bottom: 1rem;
-}
-
-section ul {
-list-style: none;
-padding: 0;
-}
-
-section ul li {
-margin: 0.5rem 0;
-}
-
-/* Footer */
-footer {
-text-align: center;
-background: #1d3557;
-color: white;
-padding: 1rem 0;
-margin-top: 1rem;
+@media (max-width: 800px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
 }
 </style>
