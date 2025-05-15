@@ -91,10 +91,9 @@ onMounted(() => {
         for (i = 0; i < x.length; i++) {
             x[i].style.display = "none";  
         }
-        console.log(document.getElementById("slider"))
         myIndex++;
         if (myIndex > x.length) {myIndex = 1}    
-        x[myIndex-1].style.display = "block";  
+        x[myIndex-1].style.display = "block";
         document.getElementById("slider").style.marginLeft = `calc(50% - ${x[myIndex-1].width/2}px)`;
         setTimeout(carousel, 2000); // Change image every 2 seconds
     }
@@ -106,10 +105,8 @@ onMounted(() => {
 
 .container {
   display: flex;
-  align-items: center;
-  
+  align-items: center; 
 }
-
 
 @media (max-width: 800px) {
   .container {
@@ -120,11 +117,11 @@ onMounted(() => {
 .mySlides {display:none;}
 
 .animate {
-  animation: fade 1.5s;
+  animation: fade 5s;
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .5} 
   to {opacity: 1}
 }
 
