@@ -1,8 +1,10 @@
 <template>
     <div id="app">
 
-        <header style="text-align: center; font-size: 40px; padding: 26px;">
-            Alkan İskele ve Kalıp Sistemleri
+        <header style="display: flex; flex-direction: row; align-items: center; justify-content: center; padding: 15px;">
+            <div style="font-size: 40px; font-family: serif;">
+                Alkan İskele ve Kalıp Sistemleri
+            </div>
         </header>
 
         <section id="services" style="height: 50vh; background-image: url('https://lh3.googleusercontent.com/p/AF1QipMdkNRrIYTJknULkvk_0mPTQgk0BBnq-vKpRMKz=s1360-w1360-h1020-rw');">
@@ -48,9 +50,11 @@
         <section id="hakkinda">
 
             <div id="slider" class="w3-content w3-section" style="height: 50vh; ">
-                <img class="mySlides animate" src="@/assets/a.png" style="height: 100%;">
                 <img class="mySlides animate" src="@/assets/c.png" style="height: 100%;">
+                <img class="mySlides animate" src="@/assets/a.png" style="height: 100%;">
                 <img class="mySlides animate" src="@/assets/d.png" style="height: 100%;">
+                <img class="mySlides animate" src="@/assets/1.jpg" style="height: 100%;">
+                <img class="mySlides animate" src="@/assets/2.jpg" style="height: 100%;">
             </div>
         </section>
 
