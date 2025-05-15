@@ -7,7 +7,7 @@
             </div>
         </header>
 
-        <section id="services" style="height: 50vh; background-image: url('https://lh3.googleusercontent.com/p/AF1QipMdkNRrIYTJknULkvk_0mPTQgk0BBnq-vKpRMKz=s1360-w1360-h1020-rw');">
+        <section id="services" style="height: 50vh; background-image: url('3.webp');">
         
             <div class="container" style="text-align: center; height: 100%;">
                 <a style="width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7; border: 1px solid white;" href="#demir">
