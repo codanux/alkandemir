@@ -2,25 +2,25 @@
     <div id="app">
 
         <header style="display: flex; flex-direction: row; align-items: center; justify-content: center; padding: 15px;">
-            <div style="font-size: 40px; font-family: serif;">
+            <div style="font-size: 40px; font-family: serif; text-align: center;">
                 Alkan İskele ve Kalıp Sistemleri
             </div>
         </header>
 
-        <section id="services" style="height: 50vh;">
+        <section id="services">
         
-            <div class="container" style="text-align: center; height: 100%;">
-                <a style="position: relative; width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7; border: 1px solid white;" href="#demir">
+            <div class="container" style="text-align: center;">
+                <a style="position: relative; align-items: center; align-content: center; color: white; background: black; opacity: 0.7; border: 1px solid white;" href="#demir">
                     <img src="@/assets/a2.jpg" style="object-fit: fill; width: 100%; height: 100%; border: solid white; opacity: 0.7;"/>
                     <h1 style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);">Demir Tedarik</h1>
                 </a>
 
-                <a style="position: relative; width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7; border: 1px solid white;" href="#iskele">
+                <a style="position: relative; align-items: center; align-content: center; color: white; background: black; opacity: 0.7; border: 1px solid white;" href="#iskele">
                     <img src="@/assets/a1.jpg" style="object-fit: fill; width: 100%; height: 100%; border: solid white; opacity: 0.7;"/>
                     <h1 style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);">İskele Sistemleri</h1>
                 </a>
 
-                <a style="position: relative; width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7; border: 1px solid white;" href="#kereste">
+                <a style="position: relative; align-items: center; align-content: center; color: white; background: black; opacity: 0.7; border: 1px solid white;" href="#kereste">
                     <img src="@/assets/a3.jpg" style="object-fit: fill; width: 100%; height: 100%; border: solid white; opacity: 0.7;"/>
                     <h1 style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);">Montaj ve Kaynak</h1>
                 </a>
@@ -28,24 +28,25 @@
             </div>
         </section>
 
-        
-
-
-        <div id="iskele" style="height: 350px; width: 100%; display: flex; flex-direction: row; background-color: #f0f0f0;">
-
-            <img style="width: 33.33%; height: 100%; border: solid white" src="@/assets/b.png"/>
-            
-            <div style="text-align: center; width:33.33%; height: 100%; font-size:30px; align-content: center;">
-                Teleskopik direk, plywood, osb, kereste çeşitleri <br>imalat ve satışı yapmaktayız
+        <section id="iskele" class="container" style="">
+            <div style="width: 100%;">
+                <img style="width: 100%;" src="@/assets/b.png"/>
+            </div>
+            <div style="width: 100%;align-content: center; align-items: center;">
+                <div style="width: 100%; height: 100%;text-align: center; font-size:30px; align-content: center;">
+                    Teleskopik direk, plywood, osb, kereste çeşitleri <br>imalat ve satışı yapmaktayız
+                </div>
             </div>
 
-            <img style="width: 33.33%; height: 100%; border: solid white" src="@/assets/e.png"/>
+            <div style="width: 100%;">
+                <img style="width: 100%;" src="@/assets/e.png"/>
+            </div>
 
-        </div>
+        </section>
 
-        <section id="hakkinda">
-
-            <div id="slider" class="w3-content w3-section" style="height: 50vh; ">
+        
+        <section id="hakkinda" style="height: 50vh;">
+            <div id="slider" style="height: 100%">
                 <img class="mySlides animate" src="@/assets/d.png" style="height: 100%;">
                 <img class="mySlides animate" src="@/assets/2.jpg" style="height: 100%;">
             </div>
@@ -136,6 +137,10 @@ async function send(event) {
   .container {
     display: flex;
     flex-direction: column;
+  }
+
+  .container * {
+    width: 100%;
   }
 }
 .mySlides {display:none;}
