@@ -32,7 +32,7 @@
             <div style="width: 100%;">
                 <img style="width: 100%;" src="@/assets/b.png"/>
             </div>
-            <div style="width: 100%;align-content: center; align-items: center;">
+            <div style="width: 100%; min-height: 300px; align-content: center; align-items: center;">
                 <div style="width: 100%; height: 100%;text-align: center; font-size:30px; align-content: center;">
                     Teleskopik direk, plywood, osb, kereste çeşitleri <br>imalat ve satışı yapmaktayız
                 </div>
@@ -47,6 +47,8 @@
         
         <section id="hakkinda" style="height: 50vh;">
             <div id="slider" style="height: 100%">
+                <img class="mySlides animate" src="@/assets/a4.JPG" style="height: 100%;">
+                <img class="mySlides animate" src="@/assets/a5.JPG" style="height: 100%;">
                 <img class="mySlides animate" src="@/assets/d.png" style="height: 100%;">
                 <img class="mySlides animate" src="@/assets/2.jpg" style="height: 100%;">
             </div>
