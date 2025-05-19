@@ -7,27 +7,23 @@
             </div>
         </header>
 
-        <section id="services" style="height: 50vh; background-image: url('3.webp');">
+        <section id="services" style="height: 50vh;">
         
             <div class="container" style="text-align: center; height: 100%;">
-                <a style="width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7; border: 1px solid white;" href="#demir">
-                    <div  >
-                        <h1>Demir Tedarik ve Montaj</h1>
-                    </div>            
+                <a style="position: relative; width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7; border: 1px solid white;" href="#demir">
+                    <img src="@/assets/a2.jpg" style="object-fit: fill; width: 100%; height: 100%; border: solid white; opacity: 0.7;"/>
+                    <h1 style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);">Demir Tedarik</h1>
                 </a>
 
-                 <a style="width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7; border: 1px solid white;" href="#iskele">
-                    <div  >
-                        <h1>İskele Kiralama ve Satış</h1>
-                    </div>            
+                <a style="position: relative; width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7; border: 1px solid white;" href="#iskele">
+                    <img src="@/assets/a1.jpg" style="object-fit: fill; width: 100%; height: 100%; border: solid white; opacity: 0.7;"/>
+                    <h1 style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);">İskele Sistemleri</h1>
                 </a>
 
-                 <a style="width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7; border: 1px solid white;" href="#kereste">
-                    <div  >
-                        <h1>Kereste Satış</h1>
-                    </div>            
+                <a style="position: relative; width: 100%;height:100%; align-items: center; align-content: center; color: white; background: black; opacity: 0.7; border: 1px solid white;" href="#kereste">
+                    <img src="@/assets/a3.jpg" style="object-fit: fill; width: 100%; height: 100%; border: solid white; opacity: 0.7;"/>
+                    <h1 style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);">Montaj ve Kaynak</h1>
                 </a>
-               
               
             </div>
         </section>
@@ -50,10 +46,7 @@
         <section id="hakkinda">
 
             <div id="slider" class="w3-content w3-section" style="height: 50vh; ">
-                <img class="mySlides animate" src="@/assets/c.png" style="height: 100%;">
-                <img class="mySlides animate" src="@/assets/a.png" style="height: 100%;">
                 <img class="mySlides animate" src="@/assets/d.png" style="height: 100%;">
-                <img class="mySlides animate" src="@/assets/1.jpg" style="height: 100%;">
                 <img class="mySlides animate" src="@/assets/2.jpg" style="height: 100%;">
             </div>
         </section>
@@ -93,7 +86,6 @@
 </template>
 
 <script setup>
-import bg from '@/assets/c.png'
 onMounted(() => {
     var myIndex = 0;
     carousel();
