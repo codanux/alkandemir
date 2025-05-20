@@ -1,6 +1,6 @@
 <template>
 
-        <div style="min-height: 60vh;">
+        <div style="min-height: 50vh;">
             <form @submit="send" style="padding: 10px;">
                 <h1 style="text-align: center;">İletişim Formu</h1>
                 <input type="text" placeholder="Adınız" style="width: 100%; padding: 10px; margin-bottom: 10px;">
