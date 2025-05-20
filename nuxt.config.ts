@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
+
   app: {
     head: {
       title: 'ALKAN İskele Kalıp Sistemleri | İskele Kiralama ve Satışı', // Main title for search results
@@ -31,4 +32,6 @@ export default defineNuxtConfig({
       ]
     },
   },
+
+  modules: ['@nuxtjs/sitemap', '@nuxtjs/robots'],
 })
