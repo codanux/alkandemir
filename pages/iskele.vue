@@ -18,39 +18,12 @@
             </div>
 
         </section>
-
-        
-        <section id="hakkinda" style="height: 50vh;">
-            <div id="slider" style="height: 100%">
-                <img class="mySlides animate" src="@/assets/a4.jpg" style="height: 100%;">
-                <img class="mySlides animate" src="@/assets/a5.jpg" style="height: 100%;">
-                <img class="mySlides animate" src="@/assets/d.png" style="height: 100%;">
-            </div>
-        </section>
-
-
       
 
     </div>
 </template>
 
 <script setup>
-onMounted(() => {
-    var myIndex = 0;
-    carousel();
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";  
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}    
-        x[myIndex-1].style.display = "block";
-        document.getElementById("slider").style.marginLeft = `calc(50% - ${x[myIndex-1].width/2}px)`;
-        setTimeout(carousel, 2000); // Change image every 2 seconds
-    }
-})
 
 </script>
 

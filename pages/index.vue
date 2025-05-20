@@ -26,9 +26,10 @@
         
         <section id="hakkinda" style="height: 50vh;">
             <div id="slider" style="height: 100%">
-                <img class="mySlides animate" src="@/assets/a4.jpg" style="height: 100%;">
-                <img class="mySlides animate" src="@/assets/a5.jpg" style="height: 100%;">
-                <img class="mySlides animate" src="@/assets/d.png" style="height: 100%;">
+                <img class="mySlides animate" src="@/assets/a4.jpg" style="width: 100%;height: 100%;">
+                <img class="mySlides animate" src="@/assets/a5.jpg" style="width: 100%;height: 100%;">
+                <img class="mySlides animate" src="@/assets/a6.jpg" style="width: 100%;height: 100%;">
+                
             </div>
         </section>
 
