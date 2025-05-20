@@ -11,6 +11,7 @@ export default defineNuxtConfig({
         // Theme color for mobile and browsers supporting it
         { name: 'theme-color', content: '#18181b', media: '(prefers-color-scheme: dark)' },
         { name: 'theme-color', content: 'white', media: '(prefers-color-scheme: light)' },
+        // fontawesome icons
   
         // Social media sharing information (replace with your details)
         { property: 'og:url', content: 'https://www.alkaniskele.com' },
@@ -29,7 +30,11 @@ export default defineNuxtConfig({
         { name: 'keywords', content: 'İskele, Kalıp, Kiralama, Satış, İnşaat, Demir Direk, Kereste' },
         { name: 'robots', content: 'index, follow' }, 
 
-      ]
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' },
+      ],
     },
   },
 
