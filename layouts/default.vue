@@ -1,7 +1,7 @@
 <template>
     <div>
         <header>
-            <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; padding: 15px; font-size: 40px;text-align: center;">
+            <div style="background: linear-gradient(90deg,rgba(12, 12, 145, 1) 0%, rgba(0, 64, 214, 1) 100%);color:white;display: flex; flex-direction: row; align-items: center; justify-content: center; padding: 15px; font-size: 40px;text-align: center;">
                 Alkan İskele ve Kalıp Sistemleri
             </div>
             <ul class="nav">
@@ -50,15 +50,12 @@
 
 .nav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #090979;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
-
 }
 
 .nav li {
@@ -70,7 +67,6 @@
 }
 
 li a {
-    
   display: block;
   color: white;
   text-align: center;
@@ -79,7 +75,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #2e38f3;
+  background-color: #1025AD;
 }
 
 </style>
