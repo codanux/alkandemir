@@ -1,10 +1,13 @@
 <template>
     <div>
-         <header>
+        <header>
             <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; padding: 15px; font-size: 40px;text-align: center;">
                 Alkan İskele ve Kalıp Sistemleri
             </div>
             <ul class="nav">
+                
+                <img src="@/assets/logo.png" style="width: 30px; height: 30px; margin-right: 10px;" />
+                
                 <li><a href=".">Anasayfa</a></li>
                 <li><a href="iskele">İskele Sistemleri</a></li>
                 <li><a href="iletisim">İletişim</a></li>
@@ -50,7 +53,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #090979;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,7 +79,7 @@ li a {
 }
 
 li a:hover {
-  background-color: #111;
+  background-color: #2e38f3;
 }
 
 </style>
