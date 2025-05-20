@@ -12,18 +12,21 @@ export default defineNuxtConfig({
         { name: 'theme-color', content: 'white', media: '(prefers-color-scheme: light)' },
   
         // Social media sharing information (replace with your details)
-        { property: 'og:url', content: 'https://www.alkaniskele.com' }, // Your website URL
+        { property: 'og:url', content: 'https://www.alkaniskele.com' },
         { property: 'og:title', content: 'ALKAN İskele Kalıp Sistemleri' },
         { property: 'og:site_name', content: 'ALKAN İskele Kalıp Sistemleri' },
-        { property: 'og:description', content: 'ALKAN İskele Kalıp Sistemleri olarak inşaat sektöründe iskele kiralama ve satışı, demir direk ve kereste gibi malzemelerin temini alanlarında hizmet vermekteyiz.' }, // Informative description (around 155 characters)
+        { property: 'og:description', content: 'ALKAN İskele Kalıp Sistemleri olarak inşaat sektöründe iskele kiralama ve satışı, demir direk ve kereste gibi malzemelerin temini alanlarında hizmet vermekteyiz.' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:image', content: 'https://www.alkaniskele.com.tr/og-image.jpg' }, // Replace with path to your social media image
-        { property: 'twitter:card', content: 'summary_large_image' }, // Twitter card type with large image
-        { property: 'twitter:site', content: '@alkaniskele' }, // Replace with your Twitter handle
-        { property: 'twitter:creator', content: '@alkaniskele' }, // Replace with your Twitter handle
+        { property: 'og:image', content: 'https://www.alkaniskele.com.tr/og-image.jpg' }, 
+        { property: 'twitter:card', content: 'summary_large_image' },
+        { property: 'twitter:site', content: '@alkaniskele' },
+        { property: 'twitter:creator', content: '@alkaniskele' },
   
         // Author information (optional)
         { name: 'author', content: 'ALKAN İskele Kalıp Sistemleri' },
+        { name: 'description', content: 'ALKAN İskele Kalıp Sistemleri olarak inşaat sektöründe iskele kiralama ve satışı, demir direk ve kereste gibi malzemelerin temini alanlarında hizmet vermekteyiz.' }, 
+        { name: 'keywords', content: 'İskele, Kalıp, Kiralama, Satış, İnşaat, Demir Direk, Kereste' },
+        { name: 'robots', content: 'index, follow' }, 
 
       ]
     },
