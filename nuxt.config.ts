@@ -18,7 +18,7 @@ export default defineNuxtConfig({
         { property: 'og:site_name', content: 'ALKAN İskele Kalıp Sistemleri' },
         { property: 'og:description', content: 'ALKAN İskele Kalıp Sistemleri olarak inşaat sektöründe iskele kiralama ve satışı, demir direk ve kereste gibi malzemelerin temini alanlarında hizmet vermekteyiz.' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:image', content: 'https://www.alkaniskele.com.tr/og-image.jpg' }, 
+        { property: 'og:image', content: 'https://alkaniskele.com/favicon.ico' }, 
         { property: 'twitter:card', content: 'summary_large_image' },
         { property: 'twitter:site', content: '@alkaniskele' },
         { property: 'twitter:creator', content: '@alkaniskele' },
