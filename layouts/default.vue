@@ -27,7 +27,7 @@
                     <p><strong>E-posta:</strong> info@alkandemir.com</p>
                     <p><strong>Adres:</strong> Paşaköy, Atayolu Cad. No:216, 34160 Sancaktepe/İstanbul</p>
 
-                    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+                    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;margin-top: 10px;">
                     
                         <a target="_blank" href="https://www.twitter.com/alkaniskele" class="fa fa-twitter"></a>
                         <a target="_blank" href="https://www.instagram.com/alkaniskele/" class="fa fa-instagram"></a>

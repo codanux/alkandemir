@@ -24,8 +24,8 @@
 
   
         
-        <section id="hakkinda" style="">
-            <div id="slider" style="">
+        <section id="hakkinda">
+            <div id="slider">
                 <img class="mySlides animate" src="@/assets/a4.jpeg" style="width: 100%;max-height: 50vh;object-fit: contain;">
                 <img class="mySlides animate" src="@/assets/a5.jpeg" style="width: 100%;max-height: 50vh;object-fit: contain;">
                 <img class="mySlides animate" src="@/assets/a6.jpeg" style="width: 100%;max-height: 50vh;object-fit: contain;">
