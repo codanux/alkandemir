@@ -43,6 +43,7 @@ onMounted(() => {
         var i;
         var x = document.getElementsByClassName("mySlides");
         for (i = 0; i < x.length; i++) {
+            console.log(i)
             x[i].style.display = "none";  
         }
         myIndex++;
