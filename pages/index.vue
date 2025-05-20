@@ -24,11 +24,11 @@
 
   
         
-        <section id="hakkinda" style="max-height: 50vh;">
-            <div id="slider" style="height: 100%">
-                <img class="mySlides animate" src="@/assets/a4.jpg" style="width: 100%;height: 100%;">
-                <img class="mySlides animate" src="@/assets/a5.jpg" style="width: 100%;height: 100%;">
-                <img class="mySlides animate" src="@/assets/a6.jpg" style="width: 100%;height: 100%;">
+        <section id="hakkinda" style="">
+            <div id="slider" style="">
+                <img class="mySlides animate" src="@/assets/a4.jpg" style="width: 100%;max-height: 50vh;object-fit: contain;">
+                <img class="mySlides animate" src="@/assets/a5.jpg" style="width: 100%;max-height: 50vh;object-fit: contain;">
+                <img class="mySlides animate" src="@/assets/a6.jpg" style="width: 100%;max-height: 50vh;object-fit: contain;">
                 
             </div>
         </section>
