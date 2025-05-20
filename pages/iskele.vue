@@ -3,7 +3,7 @@
 
        
 
-        <section id="iskele" class="container" style="">
+        <section id="iskele" class="container" style="min-height: 60vh;">
             <div style="width: 100%;">
                 <img style="width: 100%;" src="@/assets/b.png"/>
             </div>
