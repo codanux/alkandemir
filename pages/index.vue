@@ -16,7 +16,7 @@
 
                 <div style="position: relative; align-items: center; align-content: center; color: white; border: 1px solid white;" href="#kereste">
                     <img src="@/assets/a3.jpg" style="object-fit: fill; width: 100%; height: 100%;"/>
-                    <h1 style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,40,255,1));">Montaj ve Kaynak</h1>
+                    <h1 style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);background-image: linear-gradient(to right, rgba(255,0,0,0) 10%, rgba(0,40,255,1) 60%);">Kaynak Yapım</h1>
                 </div>
               
             </div>
