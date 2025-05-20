@@ -24,7 +24,7 @@
 
   
         
-        <section id="hakkinda" style="height: 50vh;">
+        <section id="hakkinda" style="max-height: 50vh;">
             <div id="slider" style="height: 100%">
                 <img class="mySlides animate" src="@/assets/a4.jpg" style="width: 100%;height: 100%;">
                 <img class="mySlides animate" src="@/assets/a5.jpg" style="width: 100%;height: 100%;">
