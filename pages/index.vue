@@ -23,17 +23,34 @@
         </section>
 
   
-        <section id="description">
-            <div class="description">
-                <h1 style="text-align: center;">Hakkımızda</h1>
-                <p style="text-align: center; font-size: 20px;">Alkan İnşaat, inşaat sektöründe 20 yılı aşkın deneyime sahip bir firma olarak, kaliteli ve güvenilir hizmet sunmayı ilke edinmiştir. Demir tedarikinden iskele sistemlerine, kaynak yapımından inşaat malzemelerine kadar geniş bir yelpazede hizmet vermekteyiz. Müşteri memnuniyetini ön planda tutarak, projelerinizi zamanında ve bütçenize uygun şekilde tamamlamayı hedefliyoruz.</p>
+        <section id="description" class="description">
+            <h1 style="text-align: center;">Hakkımızda</h1>
+            <p style="text-align: center; font-size: 20px;">
+                Alkan İskele ve Kalıp Sistemleri, inşaat sektöründe 20 yılı aşkın bir süredir faaliyet gösteren köklü bir firmadır. Kalite ve güvenilirlik ilkelerimiz doğrultusunda, projelerinizi en iyi şekilde desteklemek için çalışıyoruz. Demir tedarikinden iskele sistemlerine, kaynak yapımından inşaat malzemelerine kadar geniş bir ürün yelpazesi ile hizmet vermekteyiz. Müşteri memnuniyetini ön planda tutarak, sektördeki gelişmeleri yakından takip ediyor ve yenilikçi çözümler sunuyoruz. Alkan İnşaat olarak, inşaat sektöründe ihtiyaç duyulan çeşitli ürünleri sunmaktayız.
+            </p>
+        </section>
+      
+        <section id="products" class="products">
+            <div class="product">
+                <img src="@/assets/a4.jpeg" style="object-fit: fill; width: 100%; height: 100%;"/>
+                <h1>Ürünlerimiz</h1>
             </div>
-            <div class="description">
-              <h1 style="text-align: center;">Ürünlerimiz</h1>
-              <p style="text-align: center; font-size: 20px;">Alkan İnşaat olarak, inşaat sektöründe ihtiyaç duyulan çeşitli ürünleri sunmaktayız. Demir tedarikinden iskele sistemlerine, kaynak yapımından inşaat malzemelerine kadar geniş bir ürün yelpazesi ile hizmet vermekteyiz. Kalite ve güvenilirlik ilkelerimiz doğrultusunda, projelerinizi en iyi şekilde desteklemek için çalışıyoruz.</p>
+            <div class="product">
+                <img src="@/assets/a5.jpeg" style="object-fit: fill; width: 100%; height: 100%;"/>
+                <h1>Ürünlerimiz</h1>
+            </div>
+            <div class="product">
+                <img src="@/assets/a6.jpeg" style="object-fit: fill; width: 100%; height: 100%;"/>
+                <h1>Ürünlerimiz</h1>
             </div>
         </section>
 
+        <div class="description">
+            <h1 style="text-align: center;">Ürünlerimiz</h1>
+            <p style="text-align: center; font-size: 20px;">
+                Ürünlerimiz arasında demir tedarik hizmetleri, iskele sistemleri, kaynak yapım hizmetleri ve inşaat malzemeleri bulunmaktadır. Her bir ürünümüz, kalite standartlarına uygun olarak üretilmekte ve müşterilerimizin ihtiyaçlarına göre özelleştirilmektedir. Alkan İskele ve Kalıp Sistemleri olarak, sektördeki gelişmeleri yakından takip ediyor ve yenilikçi çözümler sunuyoruz.
+            </p>
+        </div>
 
     </div>
 </template>
@@ -46,6 +63,35 @@
 <style>
 .description {
     padding: 50px;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+}
+
+.product {
+    flex: 1 1 30%;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+}
+.product img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,40,255,1));
+    color: white;
+    display: none;;
 }
 
 </style>
