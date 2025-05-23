@@ -23,42 +23,29 @@
         </section>
 
   
-        
-        <section id="hakkinda">
-            <div id="slider">
-                <img class="mySlides animate" src="@/assets/a4.jpeg" style="width: 100%;max-height: 50vh;object-fit: contain;">
-                <img class="mySlides animate" src="@/assets/a5.jpeg" style="width: 100%;max-height: 50vh;object-fit: contain;">
-                <img class="mySlides animate" src="@/assets/a6.jpeg" style="width: 100%;max-height: 50vh;object-fit: contain;">
-                
+        <section id="description">
+            <div class="description">
+                <h1 style="text-align: center;">Hakkımızda</h1>
+                <p style="text-align: center; font-size: 20px;">Alkan İnşaat, inşaat sektöründe 20 yılı aşkın deneyime sahip bir firma olarak, kaliteli ve güvenilir hizmet sunmayı ilke edinmiştir. Demir tedarikinden iskele sistemlerine, kaynak yapımından inşaat malzemelerine kadar geniş bir yelpazede hizmet vermekteyiz. Müşteri memnuniyetini ön planda tutarak, projelerinizi zamanında ve bütçenize uygun şekilde tamamlamayı hedefliyoruz.</p>
+            </div>
+            <div class="description">
+              <h1 style="text-align: center;">Ürünlerimiz</h1>
+              <p style="text-align: center; font-size: 20px;">Alkan İnşaat olarak, inşaat sektöründe ihtiyaç duyulan çeşitli ürünleri sunmaktayız. Demir tedarikinden iskele sistemlerine, kaynak yapımından inşaat malzemelerine kadar geniş bir ürün yelpazesi ile hizmet vermekteyiz. Kalite ve güvenilirlik ilkelerimiz doğrultusunda, projelerinizi en iyi şekilde desteklemek için çalışıyoruz.</p>
             </div>
         </section>
+
 
     </div>
 </template>
 
 <script setup>
-onMounted(() => {
-    var myIndex = 0;
-    carousel();
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        for (i = 0; i < x.length; i++) {
-            console.log(i)
-            x[i].style.display = "none";  
-        }
-        myIndex++;
-        if (myIndex > x.length) {myIndex = 1}    
-        x[myIndex-1].style.display = "block";
-        document.getElementById("slider").style.marginLeft = `calc(50% - ${x[myIndex-1].width/2}px)`;
-        setTimeout(carousel, 2000); // Change image every 2 seconds
-    }
-})
 
 
 </script>
 
 <style>
-
+.description {
+    padding: 50px;
+}
 
 </style>

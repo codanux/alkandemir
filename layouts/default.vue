@@ -1,7 +1,7 @@
 <template>
     <div>
         <header>
-            <div style="background: linear-gradient(90deg,rgba(12, 12, 145, 1) 0%, rgba(0, 20, 214, 1) 100%);color:white;display: flex; flex-direction: row; align-items: center; justify-content: center; padding: 15px; font-size: 40px;text-align: center;">
+            <div class="title" style="">
                 Alkan İskele ve Kalıp Sistemleri
             </div>
             <ul class="nav">
@@ -17,29 +17,52 @@
         <slot></slot>
         
 
-        <div style="background: linear-gradient(90deg,rgba(12, 12, 145, 1) 0%, rgba(0, 20, 214, 1) 100%); color: white; height: 50vh;">
+        <div style="height: 30vh;">
             <div id="contact" class="container" style="display: flex; justify-content: center; align-items: center; height: 100%; padding: 10px;">
                 <iframe style="height: 100%; width: 100%; min-width: 300px; border: none;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.7340569809885!2d29.267917800000003!3d41.0091937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad1e086597e53%3A0x3d05ae7d4b9dc1ca!2zQUxLQU4gxLBTS0VMRSBLQUxJUCBTxLBTVEVNTEVSxLA!5e0!3m2!1str!2str!4v1745742228462!5m2!1str!2str" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                
-
-                <div style="margin-left: 40px; display: flex; flex-direction: column; justify-content: center; height: 100%;">
-                    <p><strong>Telefon:</strong> +90 537 788 26 41</p>
-                    <p><strong>E-posta:</strong> info@alkandemir.com</p>
-                    <p><strong>Adres:</strong> Paşaköy, Atayolu Cad. No:216, 34160 Sancaktepe/İstanbul</p>
-
-                    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;margin-top: 10px;">
-                    
-                        <a target="_blank" href="https://www.twitter.com/alkaniskele" class="fa fa-twitter"></a>
-                        <a target="_blank" href="https://www.instagram.com/alkaniskele/" class="fa fa-instagram"></a>
-                        <a target="_blank" href="https://www.facebook.com/alkaniskele/" class="fa fa-facebook"></a>
-                        <a target="_blank" href="https://www.youtube.com/@alkaniskele" class="fa fa-youtube"></a>
-                    
-                    </div>
-                    
-
-                </div>
             </div>
         </div>
+
+        <div style="display: flex;">
+
+            <div class="footer-nav">
+                <div>Başlık</div>
+                <ul>
+                    <li><a href="https://www.alkaninsaat.com.tr">Alkan İnşaat</a></li>
+                    <li><a href="https://www.alkaniskele.com.tr">Alkan İskele</a></li>
+                    <li><a href="https://www.alkan.com.tr">Alkan</a></li>
+                </ul>
+            </div>
+
+             <div class="footer-nav">
+                <div>Başlık</div>
+                <ul>
+                    <li><a href="https://www.alkaninsaat.com.tr">Alkan İnşaat</a></li>
+                    <li><a href="https://www.alkaniskele.com.tr">Alkan İskele</a></li>
+                    <li><a href="https://www.alkan.com.tr">Alkan</a></li>
+                </ul>
+            </div>
+
+             <div class="footer-nav" style="display: flex; flex-direction: column; justify-content: center;">
+                <!--Telefon, Mail, Çalışma Saatler-->
+                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                    <p style="text-align: center;">Telefon: <a href="tel:+902126123456">+90 212 612 34 56</a></p>
+                    <p style="text-align: center;">E-posta: <a href="mailto:alkaniskele@gmail.com"> alkaniskele@gmail.com</a></p>
+                    <p style="text-align: center;">Çalışma Saatleri: Pazartesi - Cuma 09:00 - 18:00</p>
+                </div>
+                <!--Sosyal Medya-->
+                <h1 style="text-align: center;">Sosyal Medya</h1>
+                <p style="text-align: center;">Bizi takip edin!</p>
+                <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;margin-top: 10px;">
+                    <a target="_blank" href="https://www.twitter.com/alkaniskele" class="fa fa-twitter"></a>
+                    <a target="_blank" href="https://www.instagram.com/alkaniskele/" class="fa fa-instagram"></a>
+                    <a target="_blank" href="https://www.facebook.com/alkaniskele/" class="fa fa-facebook"></a>
+                    <a target="_blank" href="https://www.youtube.com/@alkaniskele" class="fa fa-youtube"></a>
+                </div>
+            </div>
+            
+        </div>
+        <p style="text-align: center; padding: 20px; font-size: 20px;">&copy; 2023 Alkan İnşaat. Tüm Hakları Saklıdır.</p>
     </div>
 </template>
 
@@ -47,6 +70,30 @@
 
 <style>
 
+.footer-nav {
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.footer-nav div {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-nav ul li {
+    margin: 10px 0;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
 .fa {
     padding: 10px;
     font-size: 30px;
@@ -95,7 +142,7 @@
      border-right: none;
 }
 
-li a {
+.nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -103,7 +150,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.nav li a:hover {
   background-color: #1025AD;
 }
 
