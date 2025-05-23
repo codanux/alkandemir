@@ -30,6 +30,7 @@
             </p>
         </section>
       
+
         <section id="products" class="products">
             <div class="product">
                 <img src="@/assets/a4.jpeg" style="object-fit: fill; width: 100%; height: 100%;"/>
@@ -45,12 +46,6 @@
             </div>
         </section>
 
-        <div class="description">
-            <h1 style="text-align: center;">Ürünlerimiz</h1>
-            <p style="text-align: center; font-size: 20px;">
-                Ürünlerimiz arasında demir tedarik hizmetleri, iskele sistemleri, kaynak yapım hizmetleri ve inşaat malzemeleri bulunmaktadır. Her bir ürünümüz, kalite standartlarına uygun olarak üretilmekte ve müşterilerimizin ihtiyaçlarına göre özelleştirilmektedir. Alkan İskele ve Kalıp Sistemleri olarak, sektördeki gelişmeleri yakından takip ediyor ve yenilikçi çözümler sunuyoruz.
-            </p>
-        </div>
 
     </div>
 </template>
@@ -62,7 +57,7 @@
 
 <style>
 .description {
-    padding: 50px;
+    padding: 20px;
 }
 
 .products {
