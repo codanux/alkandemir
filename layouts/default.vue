@@ -26,20 +26,22 @@
         <div style="display: flex;">
 
             <div class="footer-nav">
-                <div>Başlık</div>
+                <div>Ürünler</div>
                 <ul>
-                    <li><a href="https://www.alkaninsaat.com.tr">Alkan İnşaat</a></li>
-                    <li><a href="https://www.alkaniskele.com.tr">Alkan İskele</a></li>
-                    <li><a href="https://www.alkan.com.tr">Alkan</a></li>
+                    <li><a href="iskele">İskele Sistemleri</a></li>
+                    <li><a href="iskele">Kalıp Sistemleri</a></li>
+                    <li><a href="iskele">Ekipmanlar</a></li>
+                    <li><a href="iskele">Aksesuarlar</a></li>
                 </ul>
             </div>
 
              <div class="footer-nav">
-                <div>Başlık</div>
+                <div>Biz</div>
                 <ul>
-                    <li><a href="https://www.alkaninsaat.com.tr">Alkan İnşaat</a></li>
-                    <li><a href="https://www.alkaniskele.com.tr">Alkan İskele</a></li>
-                    <li><a href="https://www.alkan.com.tr">Alkan</a></li>
+                    <li><a href="iletisim">Hizmetler</a></li>
+                    <li><a href="iletisim">Referanslar</a></li>
+                    <li><a href="iletisim">Hakkımızda</a></li>
+                    <li><a href="iletisim">İletişim</a></li>
                 </ul>
             </div>
 
@@ -62,7 +64,7 @@
             </div>
             
         </div>
-        <p style="text-align: center; padding: 20px; font-size: 20px;">&copy; 2023 Alkan İnşaat. Tüm Hakları Saklıdır.</p>
+        <p style="text-align: center; padding: 20px; font-size: 20px;">&copy; 2025 Alkan İnşaat. Tüm Hakları Saklıdır.</p>
     </div>
 </template>
 
