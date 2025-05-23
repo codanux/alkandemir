@@ -23,29 +23,32 @@
             </div>
         </div>
 
-        <div style="display: flex;">
+        <div class="footer">
 
             <div class="footer-nav">
-                <div>Ürünler</div>
-                <ul>
-                    <li><a href="iskele">İskele Sistemleri</a></li>
-                    <li><a href="iskele">Kalıp Sistemleri</a></li>
-                    <li><a href="iskele">Ekipmanlar</a></li>
-                    <li><a href="iskele">Aksesuarlar</a></li>
-                </ul>
-            </div>
+                <div>
+                    <div>Ürünler</div>
+                    <ul>
+                        <li><a href="iskele">İskele Sistemleri</a></li>
+                        <li><a href="iskele">Kalıp Sistemleri</a></li>
+                        <li><a href="iskele">Ekipmanlar</a></li>
+                        <li><a href="iskele">Aksesuarlar</a></li>
+                    </ul>
+                </div>
 
-             <div class="footer-nav">
-                <div>Biz</div>
-                <ul>
-                    <li><a href="iletisim">Hizmetler</a></li>
-                    <li><a href="iletisim">Referanslar</a></li>
-                    <li><a href="iletisim">Hakkımızda</a></li>
-                    <li><a href="iletisim">İletişim</a></li>
-                </ul>
-            </div>
+                <div>
+                    <div>Biz</div>
+                    <ul>
+                        <li><a href="iletisim">Hizmetler</a></li>
+                        <li><a href="iletisim">Referanslar</a></li>
+                        <li><a href="iletisim">Hakkımızda</a></li>
+                        <li><a href="iletisim">İletişim</a></li>
+                    </ul>
+                </div>
 
-             <div class="footer-nav" style="display: flex; flex-direction: column; justify-content: center;">
+            </div>
+            
+             <div class="footer-bar">
                 <!--Telefon, Mail, Çalışma Saatler-->
                 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
                     <p style="text-align: center;">Telefon: <a href="tel:+902126123456">+90 212 612 34 56</a></p>
@@ -62,8 +65,10 @@
                     <a target="_blank" href="https://www.youtube.com/@alkaniskele" class="fa fa-youtube"></a>
                 </div>
             </div>
-            
         </div>
+
+        
+
         <p style="text-align: center; padding: 20px; font-size: 20px;">&copy; 2025 Alkan İskele ve Kalıp Sistemleri. Tüm Hakları Saklıdır.</p>
     </div>
 </template>
@@ -72,14 +77,23 @@
 
 <style>
 
-.footer-nav {
-    margin-top: 4%;
-    margin-left: 10%;
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
 }
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
 .footer-nav div {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 30px;
+    margin: 0 20px;
 }
 
 .footer-nav ul {
@@ -154,6 +168,13 @@
 
 .nav li a:hover {
   background-color: #1025AD;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 </style>
