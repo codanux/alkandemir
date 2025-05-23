@@ -64,7 +64,7 @@
             </div>
             
         </div>
-        <p style="text-align: center; padding: 20px; font-size: 20px;">&copy; 2025 Alkan İnşaat. Tüm Hakları Saklıdır.</p>
+        <p style="text-align: center; padding: 20px; font-size: 20px;">&copy; 2025 Alkan İskele ve Kalıp Sistemleri. Tüm Hakları Saklıdır.</p>
     </div>
 </template>
 
