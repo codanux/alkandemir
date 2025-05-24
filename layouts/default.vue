@@ -23,9 +23,9 @@
 
         <div class="footer">
 
-            <div class="footer-nav">
-                <div>
-                    <div>Ürünler</div>
+            <div class="footer">
+                <div class="footer-list">
+                    <h2>Ürünler</h2>
                     <ul>
                         <li><a href="iskele">İskele Sistemleri</a></li>
                         <li><a href="iskele">Kalıp Sistemleri</a></li>
@@ -34,8 +34,8 @@
                     </ul>
                 </div>
 
-                <div>
-                    <div>Biz</div>
+                <div class="footer-list">
+                    <h2>Biz</h2>
                     <ul>
                         <li><a href="iletisim">Hizmetler</a></li>
                         <li><a href="iletisim">Referanslar</a></li>
@@ -47,8 +47,8 @@
 
             </div>
         
-            <div class="footer-hours">
-                <div>Çalışma Saatler</div>
+            <div class="footer-list">
+                <h2>Çalışma Saatler</h2>
                 <ul>
                     <li>Hafta İçi: 09:00 - 18:00</li>
                     <li>Cumartesi: 09:00 - 13:00</li>
@@ -103,35 +103,22 @@ header {
     
 }
 
-.footer-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+
+.footer-list {
+    margin: 0 20px;
     text-align: center;
 }
 
-.footer-nav div {
-    margin: 0 20px;
-}
-
-.footer-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.footer-nav ul li {
+.footer-list h2 {
+    font-size: 24px;
     margin: 10px 0;
 }
 
-.footer-hours {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+a {
+    text-decoration: none;
 }
-.footer-hours ul {
+
+ul {
     list-style-type: none;
     padding: 0;
 }
