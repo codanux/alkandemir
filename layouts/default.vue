@@ -46,6 +46,15 @@
                     </ul>
                 </div>
 
+                <div>
+                    <div>Çalışma Saatler</div>
+                    <ul>
+                        <li>Hafta İçi: 09:00 - 18:00</li>
+                        <li>Cumartesi: 09:00 - 13:00</li>
+                        
+                    </ul>
+                </div>
+
             </div>
             
              <div class="footer-bar">
@@ -53,15 +62,11 @@
                 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
                     <p style="text-align: center;">Telefon: <a href="tel:+902126123456">+90 212 612 34 56</a></p>
                     <p style="text-align: center;">E-posta: <a href="mailto:alkaniskele@gmail.com"> alkaniskele@gmail.com</a></p>
-                    <p style="text-align: center;">Çalışma Saatleri: Pazartesi - Cuma 09:00 - 18:00</p>
                 </div>
-                <!--Sosyal Medya-->
-                <h1 style="text-align: center;">Sosyal Medya</h1>
-                <p style="text-align: center;">Bizi takip edin!</p>
                 <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;margin-top: 10px;">
                     <a target="_blank" href="https://www.twitter.com/alkaniskele" class="fa fa-twitter"></a>
                     <a target="_blank" href="https://www.instagram.com/alkaniskele/" class="fa fa-instagram"></a>
-                    <a target="_blank" href="https://www.facebook.com/alkaniskele/" class="fa fa-facebook"></a>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=61576549681591" class="fa fa-facebook"></a>
                     <a target="_blank" href="https://www.youtube.com/@alkaniskele" class="fa fa-youtube"></a>
                 </div>
             </div>
@@ -90,6 +95,7 @@
     justify-content: center;
     align-items: center;
     margin: 20px;
+    text-align: center;
 }
 
 .footer-nav div {
