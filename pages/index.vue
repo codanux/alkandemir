@@ -26,7 +26,7 @@
         <section id="description" class="description">
             <h1 style="text-align: center;">Hakkımızda</h1>
             <p style="text-align: center; font-size: 20px;">
-                Alkan İskele ve Kalıp Sistemleri, inşaat sektöründe 20 yılı aşkın bir süredir faaliyet gösteren köklü bir firmadır. Kalite ve güvenilirlik ilkelerimiz doğrultusunda, projelerinizi en iyi şekilde desteklemek için çalışıyoruz. Demir tedarikinden iskele sistemlerine, kaynak yapımından inşaat malzemelerine kadar geniş bir ürün yelpazesi ile hizmet vermekteyiz. Müşteri memnuniyetini ön planda tutarak, sektördeki gelişmeleri yakından takip ediyor ve yenilikçi çözümler sunuyoruz. Alkan İnşaat olarak, inşaat sektöründe ihtiyaç duyulan çeşitli ürünleri sunmaktayız.
+                Alkan İskele ve Kalıp Sistemleri, inşaat sektöründe 20 yılı aşkın bir süredir faaliyet gösteren köklü bir firmadır. Kalite ve güvenilirlik ilkelerimiz doğrultusunda, projelerinizi en iyi şekilde desteklemek için çalışıyoruz. Demir tedarikinden iskele sistemlerine, kaynak yapımından inşaat malzemelerine kadar geniş bir ürün yelpazesi ile hizmet vermekteyiz. Müşteri memnuniyetini ön planda tutarak, sektördeki gelişmeleri yakından takip ediyor ve yenilikçi çözümler sunuyoruz.
             </p>
         </section>
       
