@@ -2,7 +2,7 @@
     <div>
         <header>
             <div class="title">
-                <img src="@/assets/logo.png" style="width: 36px; height: 36px; color:white; position: absolute;left: 0px; margin: 18px;" />
+                <img src="@/assets/logo.png" style="width: 25px; height: 25px; color:white; " />
                 Alkan İskele ve Kalıp Sistemleri
             </div>
             <ul class="nav">                
@@ -82,13 +82,21 @@
 <style>
 
 :root {
-    --main-bg: #2b2b2e;
-    --main-text: #fff;
-    --nav-hover: #1025AD;
+    --bg: #2b2b2e;
+    --sc: #727272;
+    --text: #fff;
+    --hover: #01227b;
+    --secondary: #706868;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 header {
-    background: var(--main-bg);
+    background: var(--bg);
     color: white;
     align-items: center;
     padding-top: 10px;
@@ -126,6 +134,7 @@ ul {
 .title {
     font-size: 36px;
     text-align: center;
+    margin-bottom: 5px;
 }
 .fa {
     padding: 10px;
@@ -182,7 +191,7 @@ ul {
 }
 
 .nav li a:hover {
-  background-color: #1025AD;
+  background-color: #5e5f61;
 }
 
 @media (max-width: 600px) {

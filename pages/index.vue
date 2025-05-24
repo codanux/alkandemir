@@ -14,7 +14,7 @@
                     <h1>İskele Sistemleri</h1>
                 </div>
 
-                <div class="product" href="#kereste">
+                <div class="product right" href="#kereste">
                     <img src="@/assets/a3.jpeg" style="object-fit: fill; width: 100%; height: 100%;"/>
                     <h1>Kaynak Yapım</h1>
                 </div>
@@ -69,9 +69,9 @@
 
 .product {
     flex: 1 1 30%;
-    margin: 10px;
     position: relative;
     text-align: center;
+    padding: 10px;
 }
 .product img {
     width: 100%;
@@ -84,8 +84,26 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: linear-gradient(to right, rgba(255,0,0,0), var(--main-bg));
+    padding: 10px;
+    background: linear-gradient(to left, var(--secondary), var(--hover));
     color: white;
+    
+}
+
+.right h1 {
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background: linear-gradient(to right, var(--secondary), var(--hover));
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .product {
+        flex: 1 1 100%;
+    }
 }
 
 </style>
