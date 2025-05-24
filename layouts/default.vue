@@ -1,13 +1,11 @@
 <template>
     <div>
         <header>
-            <div class="title" style="">
+            <div class="title">
+                <img src="@/assets/logo.png" style="width: 36px; height: 36px; color:white; position: absolute;left: 0px; margin: 18px;" />
                 Alkan İskele ve Kalıp Sistemleri
             </div>
-            <ul class="nav">
-                
-                <img src="@/assets/logo.png" style="width: 30px; height: 30px; margin-right: 10px;" />
-                
+            <ul class="nav">                
                 <li><a href=".">Anasayfa</a></li>
                 <li><a href="iskele">İskele Sistemleri</a></li>
                 <li><a href="iletisim">İletişim</a></li>
@@ -83,6 +81,20 @@
 
 <style>
 
+:root {
+    --main-bg: #2b2b2e;
+    --main-text: #fff;
+    --nav-hover: #1025AD;
+}
+
+header {
+    background: var(--main-bg);
+    color: white;
+    align-items: center;
+    padding-top: 10px;
+}
+
+
 .footer {
     display: flex;
     justify-content: center;
@@ -125,9 +137,8 @@
 }
 
 .title {
-    font-size: 30px;
+    font-size: 36px;
     text-align: center;
-    padding: 20px;
 }
 .fa {
     padding: 10px;
@@ -162,11 +173,9 @@
 .nav {
     list-style-type: none;
     overflow: hidden;
-    background-color: #090979;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
 }
 
 .nav li {

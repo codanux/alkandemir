@@ -6,17 +6,17 @@
             <div class="container" style="text-align: center;">
                 <div class="product" href="#demir">
                     <img src="@/assets/a2.jpeg" style="object-fit: fill; width: 100%; height: 100%;"/>
-                    <h1 style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,40,255,1));">Demir Tedarik</h1>
+                    <h1>Demir Tedarik</h1>
                 </div>
 
                 <div class="product" href="iskele">
                     <img src="@/assets/a1.jpeg" style="object-fit: fill; width: 100%; height: 100%;"/>
-                    <h1 style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,40,255,1));">İskele Sistemleri</h1>
+                    <h1>İskele Sistemleri</h1>
                 </div>
 
                 <div class="product" href="#kereste">
                     <img src="@/assets/a3.jpeg" style="object-fit: fill; width: 100%; height: 100%;"/>
-                    <h1 style="position: absolute;top:50%;left:50%;transform: translate(-50%, -50%);background-image: linear-gradient(to right, rgba(255,0,0,0) 10%, rgba(0,40,255,1) 60%);">Kaynak Yapım</h1>
+                    <h1>Kaynak Yapım</h1>
                 </div>
               
             </div>
@@ -84,7 +84,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(0,40,255,1));
+    background-image: linear-gradient(to right, rgba(255,0,0,0), var(--main-bg));
     color: white;
 }
 
