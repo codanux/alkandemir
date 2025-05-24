@@ -46,15 +46,16 @@
                     </ul>
                 </div>
 
-                <div>
-                    <div>Çalışma Saatler</div>
-                    <ul>
-                        <li>Hafta İçi: 09:00 - 18:00</li>
-                        <li>Cumartesi: 09:00 - 13:00</li>
-                        
-                    </ul>
-                </div>
 
+            </div>
+        
+            <div class="footer-hours">
+                <div>Çalışma Saatler</div>
+                <ul>
+                    <li>Hafta İçi: 09:00 - 18:00</li>
+                    <li>Cumartesi: 09:00 - 13:00</li>
+                    
+                </ul>
             </div>
             
              <div class="footer-bar">
@@ -109,6 +110,18 @@
 
 .footer-nav ul li {
     margin: 10px 0;
+}
+
+.footer-hours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.footer-hours ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 .title {
