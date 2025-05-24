@@ -59,8 +59,9 @@
              <div class="footer-bar">
                 <!--Telefon, Mail, Çalışma Saatler-->
                 <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                    <p style="text-align: center;">Telefon: <a href="tel:+902126123456">+90 212 612 34 56</a></p>
-                    <p style="text-align: center;">E-posta: <a href="mailto:alkaniskele@gmail.com"> alkaniskele@gmail.com</a></p>
+                    <p style="text-align: center;">Telefon: <a href="tel:+905377882641">0537 788 26 41</a></p>
+                    <p style="text-align: center;">E-posta: <a href="mailto:alkaniskele@gmail.com">alkaniskele@gmail.com</a></p>
+                    <p style="text-align: center; max-width: 300px; margin-top: 5px;">Paşaköy, Atayolu Cad. No:216 Sancaktepe/İstanbul</p>
                 </div>
                 <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;margin-top: 10px;">
                     <a target="_blank" href="https://www.twitter.com/alkaniskele" class="fa fa-twitter"></a>
@@ -93,6 +94,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
+    
 }
 
 header {
@@ -102,6 +104,10 @@ header {
     padding-top: 10px;
 }
 
+
+.round {
+    border-radius: 3px;
+}
 
 .footer {
     display: flex;

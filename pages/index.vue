@@ -3,19 +3,19 @@
 
         <section id="services">
         
-            <div class="container" style="text-align: center;">
+            <div class="container">
                 <div class="product" href="#demir">
-                    <img src="@/assets/a2.jpeg" style="object-fit: fill; width: 100%; height: 100%;"/>
+                    <img src="@/assets/a2.jpeg"/>
                     <h1>Demir Tedarik</h1>
                 </div>
 
                 <div class="product" href="iskele">
-                    <img src="@/assets/a1.jpeg" style="object-fit: fill; width: 100%; height: 100%;"/>
+                    <img src="@/assets/a1.jpeg"/>
                     <h1>İskele Sistemleri</h1>
                 </div>
 
                 <div class="product right" href="#kereste">
-                    <img src="@/assets/a3.jpeg" style="object-fit: fill; width: 100%; height: 100%;"/>
+                    <img src="@/assets/a3.jpeg"/>
                     <h1>Kaynak Yapım</h1>
                 </div>
               
@@ -33,15 +33,15 @@
 
         <section id="products" class="products">
             <div class="product">
-                <img src="@/assets/a4.jpeg" style="object-fit: fill; width: 100%; height: 100%;"/>
+                <img src="@/assets/a4.jpeg"/>
                 
             </div>
             <div class="product">
-                <img src="@/assets/a5.jpeg" style="object-fit: fill; width: 100%; height: 100%;"/>
+                <img src="@/assets/a5.jpeg"/>
                 
             </div>
             <div class="product">
-                <img src="@/assets/a6.jpeg" style="object-fit: fill; width: 100%; height: 100%;"/>
+                <img src="@/assets/a6.jpeg"/>
                 
             </div>
         </section>
@@ -60,45 +60,37 @@
     padding: 20px;
 }
 
+
+
 .products {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     padding: 50px;
 }
 
 .product {
-    flex: 1 1 30%;
     position: relative;
     text-align: center;
-    padding: 10px;
+    margin: 4px;
 }
+
+.product h1 {
+    position: absolute;
+    bottom: 4px;
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
 .product img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.product h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    background: linear-gradient(to left, var(--secondary), var(--hover));
-    color: white;
-    
-}
-
-.right h1 {
-   position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-    background: linear-gradient(to right, var(--secondary), var(--hover));
-    color: white;
-}
 
 @media (max-width: 768px) {
     .product {
