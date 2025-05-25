@@ -6,7 +6,7 @@
                 <a href="iletisim">İletişim</a>
                 <a href="iskele">İskele Sistemleri</a>
                 
-                <a href="javascript:void(0);" class="icon" @click="myFunction()">
+                <a href="#menu" class="icon" @click="myFunction()" aria-label="menu">
                     <i class="fa fa-bars"></i>
                 </a>
             </div>
@@ -16,8 +16,7 @@
         
 
         
-        <iframe title="harita" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.7340569809885!2d29.267917800000003!3d41.0091937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad1e086597e53%3A0x3d05ae7d4b9dc1ca!2zQUxLQU4gxLBTS0VMRSBLQUxJUCBTxLBTVEVNTEVSxLA!5e0!3m2!1str!2str!4v1745742228462!5m2!1str!2str" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+      
         <div class="footer">
 
             <div class="footer">
@@ -62,11 +61,11 @@
                     </div>
                 </div>
             </div>
-    
-
         </div>
 
-        <p style="text-align: center; padding: 20px; font-size: 20px;">&copy; 2025 Alkan İskele ve Kalıp Sistemleri. Tüm Hakları Saklıdır.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12042.936173091866!2d29.267918000000005!3d41.009194!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad1e086597e53%3A0x3d05ae7d4b9dc1ca!2zQUxLQU4gxLBTS0VMRSBLQUxJUCBTxLBTVEVNTEVSxLA!5e0!3m2!1str!2str!4v1748166421628!5m2!1str!2str" title="harita" class="map" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
     </div>
 </template>
 
@@ -87,7 +86,7 @@ function myFunction() {
 
 .map {
     width: 100%;
-    height: 200px;
+    height: 300px;
     border: 0;
 }
 
@@ -151,6 +150,9 @@ function myFunction() {
     
 }
 
+.footer a {
+    border-bottom: 1px dashed gray;
+}
 
 .footer-list {
     margin:  10px;

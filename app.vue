@@ -32,7 +32,6 @@ body {
 a {
     text-decoration: none;
     color: black;
-    border-bottom: 1px dashed gray;
 }
 
 ul {

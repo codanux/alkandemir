@@ -27,7 +27,7 @@
             </div>
         </section>
 
-        <section class="products">
+        <section class="container services">
             <div class="product">
                 <img loading="lazy" alt="demir boya" src="@/assets/a4.jpeg"/>
                 
@@ -69,13 +69,6 @@
 
 .services {
     padding: 10px 10px;
-}
-
-.products {
-    
-    display: flex;
-    align-items: center;
-    padding: 50px;
 }
 
 .product {
