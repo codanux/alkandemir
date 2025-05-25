@@ -5,17 +5,17 @@
         
             <div class="container">
                 <div class="product" href="#demir">
-                    <img src="@/assets/a2.jpeg"/>
+                    <img loading="lazy" src="@/assets/a2.jpeg"/>
                     <h1>Demir Tedarik</h1>
                 </div>
 
                 <div class="product" href="iskele">
-                    <img src="@/assets/a1.jpeg"/>
+                    <img loading="lazy" src="@/assets/a1.jpeg"/>
                     <h1>İskele Sistemleri</h1>
                 </div>
 
                 <div class="product right" href="#kereste">
-                    <img src="@/assets/a3.jpeg"/>
+                    <img loading="lazy" src="@/assets/a3.jpeg"/>
                     <h1>Kaynak Yapım</h1>
                 </div>
               
@@ -31,21 +31,7 @@
         </section>
       
 
-        <section id="products" class="products">
-            <div class="product">
-                <img src="@/assets/a4.jpeg"/>
-                
-            </div>
-            <div class="product">
-                <img src="@/assets/a5.jpeg"/>
-                
-            </div>
-            <div class="product">
-                <img src="@/assets/a6.jpeg"/>
-                
-            </div>
-        </section>
-
+      
 
     </div>
 </template>

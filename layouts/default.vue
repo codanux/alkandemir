@@ -1,16 +1,16 @@
 <template>
     <div>
-        <header>
-            <div class="title">
-                <img src="@/assets/logo.png" style="width: 25px; height: 25px; color:white; " />
-                Alkan İskele ve Kalıp Sistemleri
+        <div class="mobile-container">
+            <div class="topnav" id="myTopnav">
+                <a href="." class="active">Alkan İskele ve Kalıp Sistemleri</a>
+                <a href="iletisim">İletişim</a>
+                <a href="iskele">İskele Sistemleri</a>
+                
+                <a href="javascript:void(0);" class="icon" @click="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
-            <ul class="nav">                
-                <li><a href=".">Anasayfa</a></li>
-                <li><a href="iskele">İskele Sistemleri</a></li>
-                <li><a href="iletisim">İletişim</a></li>
-            </ul>
-        </header>
+        </div>
 
         <slot></slot>
         
@@ -64,21 +64,30 @@
                     <p style="text-align: center; max-width: 300px; margin-top: 5px;">Paşaköy, Atayolu Cad. No:216 Sancaktepe/İstanbul</p>
                 </div>
                 <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;margin-top: 10px;">
-                    <a target="_blank" href="https://www.twitter.com/alkaniskele" class="fa fa-twitter"></a>
-                    <a target="_blank" href="https://www.instagram.com/alkaniskele/" class="fa fa-instagram"></a>
-                    <a target="_blank" href="https://www.facebook.com/profile.php?id=61576549681591" class="fa fa-facebook"></a>
-                    <a target="_blank" href="https://www.youtube.com/@alkaniskele" class="fa fa-youtube"></a>
+                    <a target="_blank" href="https://www.twitter.com/alkaniskele" class="fa fai fa-twitter"></a>
+                    <a target="_blank" href="https://www.instagram.com/alkaniskele/" class="fa fai fa-instagram"></a>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=61576549681591" class="fa fai fa-facebook"></a>
+                    <a target="_blank" href="https://www.youtube.com/@alkaniskele" class="fa fai fa-youtube"></a>
                 </div>
             </div>
         </div>
-
-        
 
         <p style="text-align: center; padding: 20px; font-size: 20px;">&copy; 2025 Alkan İskele ve Kalıp Sistemleri. Tüm Hakları Saklıdır.</p>
     </div>
 </template>
 
 
+<script setup>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 <style>
 
@@ -91,22 +100,61 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 0;
     padding: 0;
     font-family: Arial, sans-serif;
     
 }
-
-header {
-    background: var(--bg);
-    color: white;
-    align-items: center;
-    padding-top: 10px;
-}
-
-
 .round {
     border-radius: 3px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+    float: right;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a:first-child {
+    float: left ;
+}
+
+.topnav a.icon {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav a:nth-child(2) {
+        border-top: white 1px solid;
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .footer {
@@ -137,12 +185,8 @@ ul {
     padding: 0;
 }
 
-.title {
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 5px;
-}
-.fa {
+
+.fai {
     padding: 10px;
     font-size: 30px;
     width: 50px;
@@ -172,39 +216,5 @@ ul {
     color: white;
 }
 
-.nav {
-    list-style-type: none;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav li {
-    border-right: 1px solid #bbb;
-}
-
-.nav li:last-child {
-     border-right: none;
-}
-
-.nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-.nav li a:hover {
-  background-color: #5e5f61;
-}
-
-@media (max-width: 600px) {
-    .footer {
-        flex-direction: column;
-        align-items: center;
-    }
-}
 
 </style>
