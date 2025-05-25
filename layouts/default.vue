@@ -23,17 +23,17 @@
                 <div class="footer-list">
                     <h2>Hizmetler</h2>
                     <ul>
-                        <li><a href="iskele">İskele Sistemleri</a></li>
-                        <li><a href="iskele">Demir Ürünleri</a></li>
+                        <li><a class="dashed" href="iskele">İskele Sistemleri</a></li>
+                        <li><a class="dashed" href="iskele">Demir Ürünleri</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-list">
                     <h2>Hakkımızda</h2>
                     <ul>
-                        <li><a href="iletisim">Ekibimiz</a></li>
-                        <li><a href="iletisim">Referanslar</a></li>
-                        <li><a href="iletisim">İletişim</a></li>
+                        <li><a class="dashed" href="iletisim">Ekibimiz</a></li>
+                        <li><a class="dashed" href="iletisim">Referanslar</a></li>
+                        <li><a class="dashed" href="iletisim">İletişim</a></li>
                     </ul>
                 </div>
 
@@ -49,15 +49,24 @@
                             
                 <div class="footer-list">
                     <ul>
-                        <li>Telefon: <a href="tel:+905377882641">0537 788 26 41</a></li>
-                        <li>E-posta: <a href="mailto:alkaniskele@gmail.com">alkaniskele@gmail.com</a></li>
+                        <li>Telefon: <a class="dashed" href="tel:+905377882641">0537 788 26 41</a></li>
+                        <li>E-posta: <a class="dashed" href="mailto:alkaniskele@gmail.com">alkaniskele@gmail.com</a></li>
                         <li>Paşaköy, Atayolu Cad. No:216 Sancaktepe/İstanbul</li>
                     </ul>
-                    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;margin-top: 10px;">
-                        <a target="_blank" href="https://www.twitter.com/alkaniskele" class="fa fai fa-twitter" aria-label="twitter"></a>
-                        <a target="_blank" href="https://www.instagram.com/alkaniskele/" class="fa fai fa-instagram" aria-label="instagram"></a>
-                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61576549681591" class="fa fai fa-facebook" aria-label="facebook"></a>
-                        <a target="_blank" href="https://www.youtube.com/@alkaniskele" class="fa fai fa-youtube" aria-label="youtube"></a>
+                    <div class="social-icons">
+                        
+                        <a target="_blank" href="https://www.twitter.com/alkaniskele" aria-label="twitter">
+                            <img src="@/assets/twitter.svg" alt="twitter" style="width: 30px; height: 30px;">
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/alkaniskele/" aria-label="instagram">
+                            <img src="@/assets/instagram.svg" alt="instagram" style="width: 30px; height: 30px;">
+                        </a>
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61576549681591" aria-label="facebook">
+                            <img src="@/assets/facebook.svg" alt="facebook" style="width: 30px; height: 30px;">
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com/@alkaniskele"  aria-label="youtube">
+                            <img src="@/assets/youtube.svg" alt="youtube" style="width: 30px; height: 30px;">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -83,6 +92,17 @@ function myFunction() {
 </script>
 
 <style>
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+}
 
 .map {
     width: 100%;
@@ -150,7 +170,7 @@ function myFunction() {
     
 }
 
-.footer a {
+.dashed {
     border-bottom: 1px dashed gray;
 }
 
@@ -195,7 +215,7 @@ function myFunction() {
     background: #3B5999;
     color: white;
 }
-.fa-youtube {
+.fa-youtube-play {
     background: #bb0000;
     color: white;
 }
