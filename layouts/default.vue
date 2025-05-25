@@ -22,51 +22,48 @@
 
             <div class="footer">
                 <div class="footer-list">
-                    <h2>Ürünler</h2>
+                    <h2>Hizmetler</h2>
                     <ul>
                         <li><a href="iskele">İskele Sistemleri</a></li>
-                        <li><a href="iskele">Kalıp Sistemleri</a></li>
-                        <li><a href="iskele">Ekipmanlar</a></li>
-                        <li><a href="iskele">Aksesuarlar</a></li>
+                        <li><a href="iskele">Demir Ürünleri</a></li>
                     </ul>
                 </div>
 
                 <div class="footer-list">
-                    <h2>Biz</h2>
+                    <h2>Hakkımızda</h2>
                     <ul>
-                        <li><a href="iletisim">Hizmetler</a></li>
+                        <li><a href="iletisim">Ekibimiz</a></li>
                         <li><a href="iletisim">Referanslar</a></li>
-                        <li><a href="iletisim">Hakkımızda</a></li>
                         <li><a href="iletisim">İletişim</a></li>
                     </ul>
                 </div>
 
+                <div class="footer-list">
+                    <h2>Çalışma Saatler</h2>
+                    <ul>
+                        <li>Hafta İçi: 09:00 - 18:00</li>
+                        <li>Cumartesi: 09:00 - 13:00</li>
+                        
+                    </ul>
+                </div>
 
-            </div>
-        
-            <div class="footer-list">
-                <h2>Çalışma Saatler</h2>
-                <ul>
-                    <li>Hafta İçi: 09:00 - 18:00</li>
-                    <li>Cumartesi: 09:00 - 13:00</li>
-                    
-                </ul>
-            </div>
-            
-             <div class="footer-bar">
-                <!--Telefon, Mail, Çalışma Saatler-->
-                <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                    <p style="text-align: center;">Telefon: <a href="tel:+905377882641">0537 788 26 41</a></p>
-                    <p style="text-align: center;">E-posta: <a href="mailto:alkaniskele@gmail.com">alkaniskele@gmail.com</a></p>
-                    <p style="text-align: center; max-width: 300px; margin-top: 5px;">Paşaköy, Atayolu Cad. No:216 Sancaktepe/İstanbul</p>
-                </div>
-                <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;margin-top: 10px;">
-                    <a target="_blank" href="https://www.twitter.com/alkaniskele" class="fa fai fa-twitter"></a>
-                    <a target="_blank" href="https://www.instagram.com/alkaniskele/" class="fa fai fa-instagram"></a>
-                    <a target="_blank" href="https://www.facebook.com/profile.php?id=61576549681591" class="fa fai fa-facebook"></a>
-                    <a target="_blank" href="https://www.youtube.com/@alkaniskele" class="fa fai fa-youtube"></a>
+                            
+                <div class="footer-list">
+                    <ul>
+                        <li>Telefon: <a href="tel:+905377882641">0537 788 26 41</a></li>
+                        <li>E-posta: <a href="mailto:alkaniskele@gmail.com">alkaniskele@gmail.com</a></li>
+                        <li>Paşaköy, Atayolu Cad. No:216 Sancaktepe/İstanbul</li>
+                    </ul>
+                    <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;margin-top: 10px;">
+                        <a target="_blank" href="https://www.twitter.com/alkaniskele" class="fa fai fa-twitter"></a>
+                        <a target="_blank" href="https://www.instagram.com/alkaniskele/" class="fa fai fa-instagram"></a>
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61576549681591" class="fa fai fa-facebook"></a>
+                        <a target="_blank" href="https://www.youtube.com/@alkaniskele" class="fa fai fa-youtube"></a>
+                    </div>
                 </div>
             </div>
+    
+
         </div>
 
         <p style="text-align: center; padding: 20px; font-size: 20px;">&copy; 2025 Alkan İskele ve Kalıp Sistemleri. Tüm Hakları Saklıdır.</p>
@@ -149,15 +146,19 @@ function myFunction() {
 .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    
     padding: 20px;
     
 }
 
 
 .footer-list {
-    margin: 0 20px;
+    margin:  10px;
     text-align: center;
+}
+
+.footer-list li {
+    margin-bottom: 10px;
 }
 
 .footer-list h2 {
