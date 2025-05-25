@@ -12,17 +12,17 @@
 
         <section class="services container">
             <div class="product" href="#demir">
-                <img loading="lazy" alt="teleskobik direk" src="@/assets/a2.jpeg"/>
+                <img alt="teleskobik direk" src="@/assets/a2.jpeg"/>
                 <h1>Demir Tedarik</h1>
             </div>
 
             <div class="product" href="iskele">
-                <img loading="lazy" alt="hazır iskele" src="@/assets/a1.jpeg"/>
+                <img alt="hazır iskele" src="@/assets/a1.jpeg"/>
                 <h1>İskele Sistemleri</h1>
             </div>
 
             <div class="product right" href="#kereste">
-                <img loading="lazy" alt="demir kaynak" src="@/assets/a3.jpeg"/>
+                <img alt="demir kaynak" src="@/assets/a3.jpeg"/>
                 <h1>Kaynak Yapım</h1>
             </div>
         </section>

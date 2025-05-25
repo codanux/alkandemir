@@ -16,7 +16,7 @@
         
 
         
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.7340569809885!2d29.267917800000003!3d41.0091937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad1e086597e53%3A0x3d05ae7d4b9dc1ca!2zQUxLQU4gxLBTS0VMRSBLQUxJUCBTxLBTVEVNTEVSxLA!5e0!3m2!1str!2str!4v1745742228462!5m2!1str!2str" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe title="harita" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.7340569809885!2d29.267917800000003!3d41.0091937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cad1e086597e53%3A0x3d05ae7d4b9dc1ca!2zQUxLQU4gxLBTS0VMRSBLQUxJUCBTxLBTVEVNTEVSxLA!5e0!3m2!1str!2str!4v1745742228462!5m2!1str!2str" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         <div class="footer">
 
@@ -55,10 +55,10 @@
                         <li>Paşaköy, Atayolu Cad. No:216 Sancaktepe/İstanbul</li>
                     </ul>
                     <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;margin-top: 10px;">
-                        <a target="_blank" href="https://www.twitter.com/alkaniskele" class="fa fai fa-twitter"></a>
-                        <a target="_blank" href="https://www.instagram.com/alkaniskele/" class="fa fai fa-instagram"></a>
-                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61576549681591" class="fa fai fa-facebook"></a>
-                        <a target="_blank" href="https://www.youtube.com/@alkaniskele" class="fa fai fa-youtube"></a>
+                        <a target="_blank" href="https://www.twitter.com/alkaniskele" class="fa fai fa-twitter" aria-label="twitter"></a>
+                        <a target="_blank" href="https://www.instagram.com/alkaniskele/" class="fa fai fa-instagram" aria-label="instagram"></a>
+                        <a target="_blank" href="https://www.facebook.com/profile.php?id=61576549681591" class="fa fai fa-facebook" aria-label="facebook"></a>
+                        <a target="_blank" href="https://www.youtube.com/@alkaniskele" class="fa fai fa-youtube" aria-label="youtube"></a>
                     </div>
                 </div>
             </div>
