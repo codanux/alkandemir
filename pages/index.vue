@@ -1,7 +1,18 @@
 <template>
     <div id="app">
 
-        <section id="services">
+        <section class="about">
+            <h1>Alkan İskele ve Kalıp Sistemleri</h1>
+            <p>İnşaat sektöründe 20 yılı aşkın deneyimle, güvenilir ve kaliteli hizmet sunuyoruz.</p>
+            <p>Demir tedarikinden iskele sistemlerine, kaynak yapımından inşaat malzemelerine kadar geniş bir ürün yelpazesi ile hizmet vermekteyiz.</p>
+            <p>Müşteri memnuniyetini ön planda tutarak, sektördeki gelişmeleri yakından takip ediyor ve yenilikçi çözümler sunuyoruz.</p>
+            <p>İnşaat projelerinizde güvenilir partneriniz Alkan İskele ve Kalıp Sistemleri.</p>
+            
+            
+        </section>
+      
+
+        <section class="services">
         
             <div class="container">
                 <div class="product" href="#demir">
@@ -23,15 +34,23 @@
         </section>
 
   
-        <section id="description" class="description">
-            <h1 style="text-align: center;">Hakkımızda</h1>
-            <p style="text-align: center; font-size: 20px;">
-                Alkan İskele ve Kalıp Sistemleri, inşaat sektöründe 20 yılı aşkın bir süredir faaliyet gösteren köklü bir firmadır. Kalite ve güvenilirlik ilkelerimiz doğrultusunda, projelerinizi en iyi şekilde desteklemek için çalışıyoruz. Demir tedarikinden iskele sistemlerine, kaynak yapımından inşaat malzemelerine kadar geniş bir ürün yelpazesi ile hizmet vermekteyiz. Müşteri memnuniyetini ön planda tutarak, sektördeki gelişmeleri yakından takip ediyor ve yenilikçi çözümler sunuyoruz.
-            </p>
-        </section>
-      
+        
 
-      
+        <section id="products" class="products">
+            <div class="product">
+                <img loading="lazy" src="@/assets/a4.jpeg"/>
+                
+            </div>
+            <div class="product">
+                <img loading="lazy" src="@/assets/a5.jpeg"/>
+                
+            </div>
+            <div class="product">
+                <img loading="lazy" src="@/assets/a6.jpeg"/>
+                
+            </div>
+        </section>
+
 
     </div>
 </template>
@@ -42,13 +61,28 @@
 </script>
 
 <style>
-.description {
-    padding: 20px;
+
+.about {
+    text-align: center;
+    padding: 50px 10px;
+    background: linear-gradient(to right, #b9b9b9, #949090);
+    
+}
+.about h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
-
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    
+}
 
 .products {
+    
     display: flex;
     align-items: center;
     padding: 50px;
