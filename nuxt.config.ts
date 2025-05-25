@@ -40,5 +40,5 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ['@nuxtjs/sitemap', '@nuxtjs/robots'],
+  modules: ['@nuxtjs/sitemap'],
 })
