@@ -7,15 +7,37 @@
 </template>
 
 <style>
+
+:root {
+    --bg: #2b2b2e;
+    --sc: #727272;
+    --text: #fff;
+    --hover: #01227b;
+    --secondary: #706868;
+}
+
+
 * {
   margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
 
 .container {
   display: flex;
@@ -26,10 +48,6 @@ body {
   .container {
     display: flex;
     flex-direction: column;
-  }
-
-  .container * {
-    width: 100%;
   }
 }
 .mySlides {display:none;}

@@ -7,6 +7,7 @@ export default defineNuxtConfig({
       title: 'ALKAN İskele Kalıp Sistemleri | İskele Kiralama ve Satışı', // Main title for search results
       meta: [
         { charset: 'utf-8' },
+        { name: 'language', content: 'tr' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         // Theme color for mobile and browsers supporting it
         { name: 'theme-color', content: '#18181b', media: '(prefers-color-scheme: dark)' },

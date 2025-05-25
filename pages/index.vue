@@ -6,37 +6,28 @@
             <p>İnşaat sektöründe 20 yılı aşkın deneyimle, güvenilir ve kaliteli hizmet sunuyoruz.</p>
             <p>Demir tedarikinden iskele sistemlerine, kaynak yapımından inşaat malzemelerine kadar geniş bir ürün yelpazesi ile hizmet vermekteyiz.</p>
             <p>Müşteri memnuniyetini ön planda tutarak, sektördeki gelişmeleri yakından takip ediyor ve yenilikçi çözümler sunuyoruz.</p>
-            <p>İnşaat projelerinizde güvenilir partneriniz Alkan İskele ve Kalıp Sistemleri.</p>
-            
             
         </section>
       
 
-        <section class="services">
-        
-            <div class="container">
-                <div class="product" href="#demir">
-                    <img loading="lazy" src="@/assets/a2.jpeg"/>
-                    <h1>Demir Tedarik</h1>
-                </div>
+        <section class="services container">
+            <div class="product" href="#demir">
+                <img loading="lazy" src="@/assets/a2.jpeg"/>
+                <h1>Demir Tedarik</h1>
+            </div>
 
-                <div class="product" href="iskele">
-                    <img loading="lazy" src="@/assets/a1.jpeg"/>
-                    <h1>İskele Sistemleri</h1>
-                </div>
+            <div class="product" href="iskele">
+                <img loading="lazy" src="@/assets/a1.jpeg"/>
+                <h1>İskele Sistemleri</h1>
+            </div>
 
-                <div class="product right" href="#kereste">
-                    <img loading="lazy" src="@/assets/a3.jpeg"/>
-                    <h1>Kaynak Yapım</h1>
-                </div>
-              
+            <div class="product right" href="#kereste">
+                <img loading="lazy" src="@/assets/a3.jpeg"/>
+                <h1>Kaynak Yapım</h1>
             </div>
         </section>
 
-  
-        
-
-        <section id="products" class="products">
+        <section class="products">
             <div class="product">
                 <img loading="lazy" src="@/assets/a4.jpeg"/>
                 
@@ -47,10 +38,8 @@
             </div>
             <div class="product">
                 <img loading="lazy" src="@/assets/a6.jpeg"/>
-                
             </div>
         </section>
-
 
     </div>
 </template>
@@ -73,12 +62,13 @@
     margin-bottom: 20px;
 }
 
+.about p {
+    font-size: 15px;
+    margin: 10px 0;
+}
+
 .services {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 10px 10px;
-    
 }
 
 .products {
