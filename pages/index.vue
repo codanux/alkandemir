@@ -12,32 +12,32 @@
 
         <section class="services container">
             <div class="product" href="#demir">
-                <img loading="lazy" src="@/assets/a2.jpeg"/>
+                <img loading="lazy" alt="teleskobik direk" src="@/assets/a2.jpeg"/>
                 <h1>Demir Tedarik</h1>
             </div>
 
             <div class="product" href="iskele">
-                <img loading="lazy" src="@/assets/a1.jpeg"/>
+                <img loading="lazy" alt="hazır iskele" src="@/assets/a1.jpeg"/>
                 <h1>İskele Sistemleri</h1>
             </div>
 
             <div class="product right" href="#kereste">
-                <img loading="lazy" src="@/assets/a3.jpeg"/>
+                <img loading="lazy" alt="demir kaynak" src="@/assets/a3.jpeg"/>
                 <h1>Kaynak Yapım</h1>
             </div>
         </section>
 
         <section class="products">
             <div class="product">
-                <img loading="lazy" src="@/assets/a4.jpeg"/>
+                <img loading="lazy" alt="demir boya" src="@/assets/a4.jpeg"/>
                 
             </div>
             <div class="product">
-                <img loading="lazy" src="@/assets/a5.jpeg"/>
+                <img loading="lazy" alt="iskele paket" src="@/assets/a5.jpeg"/>
                 
             </div>
             <div class="product">
-                <img loading="lazy" src="@/assets/a6.jpeg"/>
+                <img loading="lazy" alt="boya iskele" src="@/assets/a6.jpeg"/>
             </div>
         </section>
 
