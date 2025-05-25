@@ -4,10 +4,9 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'ALKAN İskele Kalıp Sistemleri | İskele Kiralama ve Satışı', // Main title for search results
+      title: 'ALKAN İskele Kalıp Sistemleri | İskele Kiralama ve Satışı',
       meta: [
         { charset: 'utf-8' },
-        { name: 'language', content: 'tr' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         // Theme color for mobile and browsers supporting it
         { name: 'theme-color', content: '#18181b', media: '(prefers-color-scheme: dark)' },
@@ -36,6 +35,9 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
         { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' },
       ],
+      htmlAttrs: {
+        lang: 'tr',
+      }
     },
   },
 
