@@ -1,15 +1,13 @@
 <template>
     <div id="app">
 
+     
         <section class="about">
-            <h1>Alkan İskele ve Kalıp Sistemleri</h1>
+            <h1 class="title">Alkan İskele ve Kalıp Sistemleri</h1>
             <p>İnşaat sektöründe 20 yılı aşkın deneyimle, güvenilir ve kaliteli hizmet sunuyoruz.</p>
             <p>Demir tedarikinden iskele sistemlerine, kaynak yapımından inşaat malzemelerine kadar geniş bir ürün yelpazesi ile hizmet vermekteyiz.</p>
-            <p>Müşteri memnuniyetini ön planda tutarak, sektördeki gelişmeleri yakından takip ediyor ve yenilikçi çözümler sunuyoruz.</p>
-            
         </section>
-      
-
+        
         <section class="services container">
             <div class="product" href="#demir">
                 <img alt="teleskobik direk" src="@/assets/a2.jpeg"/>
@@ -26,6 +24,7 @@
                 <h1>Kaynak Yapım</h1>
             </div>
         </section>
+
 
         <section class="container services">
             <div class="product">
@@ -50,21 +49,31 @@
 </script>
 
 <style>
+.title {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 20px;
+    color: #333;
+}
+
 
 .about {
     text-align: center;
-    padding: 50px 10px;
-    background: linear-gradient(to right, #b9b9b9, #949090);
-    
-}
-.about h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
+.about h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
 .about p {
-    font-size: 15px;
-    margin: 10px 0;
+    font-size: 1.2em;
+    max-width: 800px;
+    line-height: 1.5;
 }
 
 .services {

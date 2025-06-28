@@ -2,9 +2,9 @@
     <div>
         <div class="mobile-container">
             <div class="topnav" id="myTopnav">
-                <a href="." class="active">Alkan İskele ve Kalıp Sistemleri</a>
+                <a href="." class="active">Ana Sayfa</a>
                 <a href="iletisim">İletişim</a>
-                <a href="iskele">İskele Sistemleri</a>
+                <a href="iskele">Ürünler</a>
                 
                 <a href="#menu" class="icon" @click="myFunction()" aria-label="menu">
                     <i class="fa fa-bars"></i>
@@ -114,14 +114,20 @@ function myFunction() {
     border-radius: 3px;
 }
 
+.mobile-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background: var(--bg);
 }
 
 .topnav a {
-    float: right;
     color: white;
+    float: right;
     padding: 16px;
     text-decoration: none;
     font-size: 17px;

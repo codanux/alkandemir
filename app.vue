@@ -9,13 +9,12 @@
 <style>
 
 :root {
-    --bg: #2b2b2e;
+    --bg: #272729;
     --sc: #727272;
     --text: #fff;
     --hover: #01227b;
     --secondary: #706868;
 }
-
 
 * {
   margin: 0;
