@@ -7,7 +7,7 @@
             <p>İnşaat sektöründe 20 yılı aşkın deneyimle, güvenilir ve kaliteli hizmet sunuyoruz.</p>
             <p>Demir tedarikinden iskele sistemlerine, kaynak yapımından inşaat malzemelerine kadar geniş bir ürün yelpazesi ile hizmet vermekteyiz.</p>
         </section>
-        
+
         <section class="services container">
             <div class="product" href="#demir">
                 <img alt="teleskobik direk" src="@/assets/a2.jpeg"/>
@@ -63,7 +63,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    height: 40vh;
 }
 
 .about h1 {
