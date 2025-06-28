@@ -2,13 +2,13 @@
     <div id="app">
 
      
-        <section class="about">
+        <section class="about mt-4 padding-4 px-1">
             <h1 class="title">Alkan İskele ve Kalıp Sistemleri</h1>
             <p>İnşaat sektöründe 20 yılı aşkın deneyimle, güvenilir ve kaliteli hizmet sunuyoruz.</p>
             <p>Demir tedarikinden iskele sistemlerine, kaynak yapımından inşaat malzemelerine kadar geniş bir ürün yelpazesi ile hizmet vermekteyiz.</p>
         </section>
 
-        <section class="services grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center items-center">
+        <section class="services grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4">
             <div class="product" href="#demir">
             <img alt="teleskobik direk" src="@/assets/a2.jpeg"/>
             <h1>Demir Tedarik</h1>
