@@ -65,40 +65,26 @@
 
         
         <slot></slot>
-        
+     
         
         <div class="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-            <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
-            <div class="sm:col-span-2">
-                <a href="/" aria-label="Go home" title="Company" class="inline-flex items-center">
-                <svg class="w-8 text-deep-purple-accent-400" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
-                    <rect x="3" y="1" width="7" height="12"></rect>
-                    <rect x="3" y="17" width="7" height="6"></rect>
-                    <rect x="14" y="1" width="7" height="6"></rect>
-                    <rect x="14" y="11" width="7" height="12"></rect>
-                </svg>
-                <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">Alkan İskele ve Kalıp Sistemleri</span>
-                </a>
-                <div class="mt-6 lg:max-w-sm">
-                <p class="text-sm text-gray-800">
-                    Paşaköy, Atayolu Cad. No:216 Sancaktepe/İstanbul
-                </p>
-                </div>
-            </div>
+            <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-2">
+            
             <div class="space-y-2 text-sm">
                 <p class="text-base font-bold tracking-wide text-gray-900">İletişim</p>
                 <div class="flex">
-                <p class="mr-1 text-gray-800">Phone:</p>
-                <a href="tel:05377882641" aria-label="Our phone" title="Our phone" class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">0537 788 26 41</a>
+                    <p class="mr-1 text-gray-800">Telefon:</p>
+                    <a href="tel:05377882641" aria-label="Our phone" title="Our phone" class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">0537 788 26 41</a>
                 </div>
                 <div class="flex">
-                <p class="mr-1 text-gray-800">Email:</p>
-                <a href="mailto:info@lorem.mail" aria-label="Our email" title="Our email" class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">alkaniskele@gmail.com</a>
+                    <p class="mr-1 text-gray-800">Email:</p>
+                    <a href="mailto:alkaniskele@gmail.com" aria-label="Our email" title="Our email" class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800">alkaniskele@gmail.com</a>
                 </div>
+                
                 
             </div>
             <div>
-                <span class="text-base font-bold tracking-wide text-gray-900">Social</span>
+                <span class="text-base font-bold tracking-wide text-gray-900">Sosyal</span>
                 <div class="flex items-center mt-1 space-x-3">
                 <a href="https://x.com/alkaniskele" target="_blank" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
                     <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">

@@ -1,7 +1,7 @@
 <template>
     <div id="app">
 
-        <section id="iskele" class="x-container">
+        <section id="iskele" class="container">
             <div style="width: 100%;">
                 <img style="width: 100%;" src="@/assets/b.png"/>
             </div>

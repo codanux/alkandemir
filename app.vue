@@ -25,17 +25,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
-.x-container {
-  display: flex;
-  align-items: center; 
-}
 
-@media (max-width: 800px) {
-  .x-container {
-    display: flex;
-    flex-direction: column;
-  }
-}
 .mySlides {display:none;}
 
 .animate {
