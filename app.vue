@@ -17,7 +17,6 @@
 }
 
 * {
-  margin: 0;
   box-sizing: border-box;
 }
 
@@ -25,26 +24,14 @@ body {
     margin: 0 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    
 }
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.container {
+.x-container {
   display: flex;
   align-items: center; 
 }
 
 @media (max-width: 800px) {
-  .container {
+  .x-container {
     display: flex;
     flex-direction: column;
   }

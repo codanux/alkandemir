@@ -8,7 +8,7 @@
             <p>Demir tedarikinden iskele sistemlerine, kaynak yapımından inşaat malzemelerine kadar geniş bir ürün yelpazesi ile hizmet vermekteyiz.</p>
         </section>
 
-        <section class="services container">
+        <section class="services x-container">
             <div class="product" href="#demir">
                 <img alt="teleskobik direk" src="@/assets/a2.jpeg"/>
                 <h1>Demir Tedarik</h1>
@@ -26,7 +26,7 @@
         </section>
 
 
-        <section class="container services">
+        <section class="x-container services">
             <div class="product">
                 <img loading="lazy" alt="demir boya" src="@/assets/a4.jpeg"/>
                 

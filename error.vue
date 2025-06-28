@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="x-container">
     <h1>{{ error.url }}</h1>
     <p>{{ error.message }}</p>
     <nuxt-link to="/">Go back to Home</nuxt-link>
@@ -15,7 +15,7 @@ const props = defineProps({
 </script>
 
 <style scoped>
-.container {
+.x-container {
     display: flex;
     flex-direction: column;
     align-items: center;
