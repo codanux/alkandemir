@@ -23,12 +23,7 @@
                 </div>
                 </div>
                 <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                <button type="button" class="relative rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 focus:outline-hidden">
-                    <span class="absolute -inset-1.5" />
-                    <span class="sr-only">View notifications</span>
-                    <BellIcon class="size-6" aria-hidden="true" />
-                </button>
-
+                
                 <!-- Profile dropdown -->
                 <Menu as="div" class="relative ml-3">
                     <div>
@@ -84,7 +79,7 @@
                 
             </div>
             <div>
-                <span class="text-base font-bold tracking-wide text-gray-900">Sosyal</span>
+                <span class="text-base font-bold tracking-wide text-gray-900">Sosyal Medyalar</span>
                 <div class="flex items-center mt-1 space-x-3">
                 <a href="https://x.com/alkaniskele" target="_blank" class="text-gray-500 transition-colors duration-300 hover:text-deep-purple-accent-400">
                     <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
@@ -126,6 +121,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/vue/24/outline'
 
 const navigation = [
   { name: 'Anasayfa', href: '.', current: true },
+  { name: 'Ürünler', href: 'product', current: false },
   { name: 'İletişim', href: 'iletisim', current: false },
 ]
 
