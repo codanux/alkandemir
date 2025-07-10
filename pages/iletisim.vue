@@ -3,10 +3,10 @@
         <div style="min-height: 50vh;">
             <form @submit="send" style="padding: 10px;">
                 <h1 style="text-align: center;">İletişim Formu</h1>
-                <input type="text" placeholder="Adınız" style="width: 100%; padding: 10px; margin-bottom: 10px;">
-                <input type="text" placeholder="E-posta" style="width: 100%; padding: 10px; margin-bottom: 10px;">
-                <input type="text" placeholder="Telefon" style="width: 100%; padding: 10px; margin-bottom: 10px;">
-                <textarea placeholder="Mesajınız" style="width: 100%; padding: 10px; margin-bottom: 10px;"></textarea>
+                <input type="text" placeholder="Adınız" class="form-control">
+                <input type="text" placeholder="E-posta" class="form-control">
+                <input type="text" placeholder="Telefon" class="form-control">
+                <textarea placeholder="Mesajınız" class="form-control"></textarea>
                 <button style="width: 100%; padding: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer;">Gönder</button>
             </form>
         </div>
@@ -37,3 +37,14 @@ async function send(event) {
     }
 }
 </script>
+
+<style scoped>
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+</style>
